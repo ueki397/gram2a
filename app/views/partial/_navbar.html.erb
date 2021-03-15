@@ -1,6 +1,23 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container">
+  <div class="container-fluid">
     <%= link_to "", root_path, class: "navbar__brand navbar__mainLogo" %>
+    <!-- 検索フォーム -->
+    <form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="アーティスト名・曲名">
+    </div>
+    <div class="form-group">
+      <select class="form-control">
+        <option>ジャンルを選択</option>
+        <option>システム開発部</option>
+        <option>SEOマーケティング部</option>
+        <option>人事・総務部</option>
+        <option>営業本部</option>
+      </select>
+    </div>
+    <button type="button" class="btn btn-primary">検索</button>
+    </form>
+    <!-- 検索フォーム -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

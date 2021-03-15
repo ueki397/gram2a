@@ -1,11 +1,15 @@
 .navbar{
-  background-color: #fff;
+  background-image: url("~banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   border-bottom: 1px solid rgba(0,0,0,.0975);
   height: 200px;
   &__brand{
-    height: 200px;
-    width: 200px;
-    background-size: 200px;
+    border: 1px solid rgba(0,0,0,.0975) ;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
   }
   &__mainLogo{
     background-repeat: no-repeat;
